@@ -1,7 +1,7 @@
 <div align="center">
 
 # SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/arxiv_synthrl.pdf) [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/collections/Jakumetsu/SynthRL)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/arxiv_synthrl.pdf) [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ## 🚀 TL;DR
 <p align="center">
-  <img src="./assets/model_improvements_teaser.pdf" width=100%/>
+  <img src="./assets/model_improvements_teaser.png" width=100%/>
 </p>
 
 **SynthRL** is a scalable and guaranteed pipeline for automatic data scaling in reasoning-oriented RL training. It addresses a critical challenge in RLVR (Reinforcement Learning with Verifiable Reward): how to scale the training data with correctness and distribution guarantees to achieve better performance. SynthRL achieves this through a three-stage process:
@@ -27,7 +27,7 @@
 🔧 Scale your RLVR training data with guaranteed quality and enhanced difficulty!
 
 <p align="center">
-  <img src="./assets/framework.pdf" width=100%/>
+  <img src="./assets/framework.png" width=100%/>
 </p>
 
 ## 🛠️ Usage
