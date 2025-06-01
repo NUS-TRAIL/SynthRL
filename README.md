@@ -6,7 +6,7 @@
 </div>
 
 ## ⚡ Updates
-* 30/05/2025: 🎉 We release our paper, models and codebase.
+* 01/06/2025: 🎉 We release our paper, models and codebase.
 
 ## 🚀 TL;DR
 <p align="center">
