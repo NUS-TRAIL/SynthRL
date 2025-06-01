@@ -50,7 +50,7 @@ bash ./scripts/run_evolve_verifiable.sh
 
 Please export your Google API key for the synthesizer model. For Qwen model evaluation, please use vLLM or any OpenAI-compatible API that supports Qwen models.
 
-After synthesis is complete, convert the format for R1 training:
+After synthesis is complete, convert the format for RL training:
 ```bash
 python convert_format_for_r1.py --input_path [YOUR_SYNTHESIZED_DATA_NAME]
 ```
@@ -77,7 +77,7 @@ bash ./scripts/run_eval_vlm_all.sh QWEN2.5-SynthRL/qwen2_5_vl_7b_A-MMK12-8K
 
 This command will run all available checkpoints under this directory using tensor parallelism = 2 and data parallelism = 4.
 
-For evaluation data, please download from [https://huggingface.co/datasets/Jakumetsu/SynthRL_evaluation_data](https://huggingface.co/datasets/Jakumetsu/SynthRL_evaluation_data), unzip data.zip and place it under the ./evaluation directory. We provide all the raw difficulty battle records and difficulty Elo ratings for the community for further research.
+For evaluation data, please download from [here](https://huggingface.co/datasets/Jakumetsu/SynthRL_evaluation_data), unzip data.zip and place it under the `./evaluation` directory. We provide all the raw difficulty battle records and difficulty Elo ratings for the community for further research.
 
 ## Acknowledgement
 * The training codes are built on [EasyR1](https://github.com/hiyouga/EasyR1), and the evaluation suite employs [vLLM](https://github.com/vllm-project/vllm) for acceleration.
