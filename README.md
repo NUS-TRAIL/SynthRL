@@ -42,7 +42,7 @@ pip install -e .
 
 ### (Step 2) Data Synthesis
 ```bash
-./scripts/run_evolve_verifiable.sh
+bash ./scripts/run_evolve_verifiable.sh
 ```
 Please export your Google API key for the synthesizer model. For Qwen model evaluation, please use vLLM or any OpenAI-compatible API that supports Qwen models.
 
