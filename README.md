@@ -41,10 +41,19 @@ pip install -e .
 ```
 
 ### (Step 2) Data Synthesis
+
+First, please download the processed K12-Freeform-8K dataset from [here](https://huggingface.co/datasets/Jakumetsu/K12-Freeform-8K) and put it under `./sampled_data`.
+
 ```bash
 bash ./scripts/run_evolve_verifiable.sh
 ```
+
 Please export your Google API key for the synthesizer model. For Qwen model evaluation, please use vLLM or any OpenAI-compatible API that supports Qwen models.
+
+After synthesis is complete, convert the format for R1 training:
+```bash
+python convert_format_for_r1.py --input_path [YOUR_SYNTHESIZED_DATA_NAME]
+```
 
 ### (Step 3) Training
 ```bash
