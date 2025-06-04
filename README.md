@@ -1,7 +1,7 @@
 <div align="center">
 
 # SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/arxiv_synthrl.pdf) [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.02096) [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/collections/Jakumetsu/synthrl-6839d265136fa9ca717105c5)
 
 </div>
 
@@ -78,6 +78,20 @@ bash ./scripts/run_eval_vlm_all.sh QWEN2.5-SynthRL/qwen2_5_vl_7b_A-MMK12-8K
 This command will run all available checkpoints under this directory using tensor parallelism = 2 and data parallelism = 4.
 
 For evaluation data, please download from [here](https://huggingface.co/datasets/Jakumetsu/SynthRL_evaluation_data), unzip data.zip and place it under the `./evaluation` directory. We provide all the raw difficulty battle records and difficulty Elo ratings for the community for further research.
+
+## Citation
+If you find our work useful for your research, please consider citing:
+```bibtex
+@misc{wu2025synthrl,
+      title={SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis}, 
+      author={Zijian Wu and Jinjie Ni and Xiangyan Liu and Zichen Liu and Hang Yan and Michael Qizhe Shieh},
+      year={2025},
+      eprint={2506.02096},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.02096}, 
+}
+```
 
 ## Acknowledgement
 * The training codes are built on [EasyR1](https://github.com/hiyouga/EasyR1), and the evaluation suite employs [vLLM](https://github.com/vllm-project/vllm) for acceleration.
