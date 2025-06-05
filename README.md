@@ -96,5 +96,5 @@ If you find our work useful for your research, please consider citing:
 ## Acknowledgement
 * The training codes are built on [EasyR1](https://github.com/hiyouga/EasyR1), and the evaluation suite employs [vLLM](https://github.com/vllm-project/vllm) for acceleration.
 * The base models are from [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct).
-* The original training dataset is from [MMK12](https://huggingface.co/datasets/Jakumetsu/mmk12).
-* The evaluation datasets are from [MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse), [MathVision](https://huggingface.co/datasets/MathLLMs/MathVision), [MathVista](https://huggingface.co/datasets/AI4Math/MathVista), [WeMath](https://huggingface.co/datasets/We-Math/We-Math), and [DynaMath](https://github.com/dynamic-math/DynaMath).
+* The original training dataset is from [MMK12](https://huggingface.co/datasets/FanqingM/MMK12).
+* The evaluation datasets are from [MathVerse](https://huggingface.co/datasets/AI4Math/MathVerse), [MathVision](https://huggingface.co/datasets/MathLLMs/MathVision), [MathVista](https://huggingface.co/datasets/AI4Math/MathVista), [WeMath](https://huggingface.co/datasets/We-Math/We-Math), and [DynaMath](https://github.com/DynaMath/DynaMath).
