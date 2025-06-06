@@ -82,14 +82,11 @@ For evaluation data, please download from [here](https://huggingface.co/datasets
 ## Citation
 If you find our work useful for your research, please consider citing:
 ```bibtex
-@misc{wu2025synthrl,
-      title={SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis}, 
-      author={Zijian Wu and Jinjie Ni and Xiangyan Liu and Zichen Liu and Hang Yan and Michael Qizhe Shieh},
-      year={2025},
-      eprint={2506.02096},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.02096}, 
+@article{wu2025synthrl,
+  title={SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis},
+  author={Wu, Zijian and Ni, Jinjie and Liu, Xiangyan and Liu, Zichen and Yan, Hang and Shieh, Michael Qizhe},
+  journal={arXiv preprint arXiv:2506.02096},
+  year={2025}
 }
 ```
 
