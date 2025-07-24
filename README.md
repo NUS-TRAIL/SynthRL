@@ -6,7 +6,7 @@
 </div>
 
 ## ⚡ Updates
-* 24/07/2025: 🏆 Our paper receives Best Paper Honorable Mention at ICML 2025 DataWorld Workshop!
+* 22/07/2025: 🏆 Our paper receives Best Paper Honorable Mention at ICML 2025 DataWorld Workshop!
 
 * 01/06/2025: 🎉 We release our paper, models and codebase.
 
